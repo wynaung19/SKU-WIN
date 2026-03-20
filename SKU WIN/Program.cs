@@ -53,7 +53,55 @@ namespace SKU_WIN
 
             //Console.WriteLine("안녕하세요"[100]);
 
+            //Console.WriteLine(true);
+            //Console.WriteLine(false);
 
+            //Console.WriteLine(52 < 273);
+            //Console.WriteLine(52 > 273);
+
+            //Console.WriteLine(!true);
+            //Console.WriteLine(!false);
+            //Console.WriteLine(!(52 < 273));
+            //Console.WriteLine(!(52 > 273));
+
+            //Console.WriteLine(DateTime.Now.Hour < 3 || 8 < DateTime.Now.Hour);
+            //Console.WriteLine(3 < DateTime.Now.Hour && DateTime.Now.Hour < 8);
+
+            //int a = 272;
+            //int b = 52;
+
+            //Console.WriteLine(a + b);
+            //Console.WriteLine(a - b);
+            //Console.WriteLine(a * b);
+            //Console.WriteLine(a / b);
+            //Console.WriteLine(a % b);
+
+            //int a = 2000000000;
+            //int b = 1000000000;
+            //Console.WriteLine(a + b);
+
+            //double a = 52.234;
+            //double b = 123.34;
+
+            //Console.WriteLine(a + b);
+            //Console.WriteLine(a - b);
+            //Console.WriteLine(a * b);
+            //Console.WriteLine(a / b);
+
+            //char a = 'a';
+            //Console.WriteLine(a);
+
+            //string msg = "Hello";
+            //Console.WriteLine(msg + "!");
+            //Console.WriteLine(msg[0]);
+            //Console.WriteLine(msg[1]);
+            //Console.WriteLine(msg[2]);
+
+            bool one = 10 < 0;
+            bool other = 20 > 100;
+
+            Console.WriteLine(one);
+            Console.WriteLine(other);
         }
     }
 }
