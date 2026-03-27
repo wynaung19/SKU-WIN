@@ -144,7 +144,7 @@ namespace SKU_WIN
             //Console.WriteLine(outA);
             //Console.WriteLine(outA.GetType());
 
-            //char cha = 'a';
+            //char cha = 'aa';
             //string outB = cha + "";
             //Console.WriteLine(outB);
             //Console.WriteLine(outB.GetType());
