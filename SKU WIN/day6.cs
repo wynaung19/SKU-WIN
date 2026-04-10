@@ -205,6 +205,7 @@ namespace SKU_WIN
                         Console.WriteLine("Other Key");
                         state = false;
                         break;
+
                 }
             }
         }
