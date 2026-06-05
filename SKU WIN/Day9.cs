@@ -50,6 +50,11 @@
 //        //static void Main(string[] args)
 //        //{
 //        //    Product product1 = new Product("Laptop", 50000);
+//        //    Product product2 = new Product("Phone", 20000);
+//        //    Product product3 = new Product("Tablet", 30000);
+//        //    Console.WriteLine("Product Name: " + product1.name + "\tPrice: " + product1.price);
+//        //    Console.WriteLine("Product Name: " + product2.name + "\tPrice: " + product2.price);
+//        //    Console.WriteLine("Product Name: " + product3.name + "\tPrice: " + product3.price);
 //        //}
 
 //        //class Product
@@ -137,51 +142,59 @@
 //        //    Console.WriteLine("Updated Box Height: " + box.GetHeight());
 //        //}
 
-//        //class Box
-//        //{
-//        //    //private int width;
-//        //    public int width
-//        //    {
-//        //        get { return width; }
-//        //        set
-//        //        {
-//        //            if (value > 0)
-//        //                width = value;
-//        //            else
-//        //                throw new ArgumentException("Width must be a positive integer.");
-//        //        }
-//        //    }
-//        //    //private int height;
-//        //    public int height
-//        //    {
-//        //        get { return height; }
-//        //        set
-//        //        {
-//        //            if (value > 0)
-//        //                height = value;
-//        //            else
-//        //                throw new ArgumentException("Height must be a positive integer.");
-//        //        }
-//        //    }
-//        //    public Box(int width, int height)
-//        //    {
-//        //        width = width;
-//        //        height = height;
-//        //    }
-//        //    public int Area()
-//        //    {
-//        //        return this.width * this.height;
-//        //    }
-//        //}
-//        //static void Main(string[] args)
-//        //{
-//        //    Box box = new Box(5, -10);
-//        //    box.width = 7;
-//        //    box.height = 7;
-//        //    Console.WriteLine("Box Area: " + box.Area());
-//        //    Console.WriteLine("Box Width: " + box.width);
-//        //    Console.WriteLine("Box Height: " + box.height);
-//        //}
 
+//class Box
+//    {
+//        private int _width;
+//        private int _height;
+
+//        public int width
+//        {
+//            get { return _width; }
+//            set
+//            {
+//                if (value > 0)
+//                    _width = value;
+//                else
+//                    throw new ArgumentException("Width must be a positive integer.");
+//            }
+//        }
+
+//        public int height
+//        {
+//            get { return _height; }
+//            set
+//            {
+//                if (value > 0)
+//                    _height = value;
+//                else
+//                    throw new ArgumentException("Height must be a positive integer.");
+//            }
+//        }
+
+//        public Box(int width, int height)
+//        {
+//            this.width = width;
+//            this.height = height;
+//        }
+
+//        public int Area()
+//        {
+//            return this.width * this.height;
+//        }
+
+//        static void Main(string[] args)
+//        {
+//            Box box = new Box(5, 10);
+
+//            box.width = 7;
+//            box.height = 7;
+
+//            Console.WriteLine("Box Area: " + box.Area());
+//            Console.WriteLine("Box Width: " + box.width);
+//            Console.WriteLine("Box Height: " + box.height);
+//        }
 //    }
+
+//}
 //}
